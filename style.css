@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #0055a5;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  main {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+  }
+  .button {
+    display: inline-block;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .button:hover {
+    background-color: #005f99;
+  }
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  footer a {
+    color: #a5d7ff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Additional CSS for the image sections */
+  .image-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .image-section {
+    flex: 1 1 30%;
+    text-align: center;
+  }
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
